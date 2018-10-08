@@ -12,7 +12,7 @@ go to http://localhost:9411/zipkin
 
 ## demonstration
 ```bash
-for i in `seq 1 50`; do for j in a b c d ; do echo `curl -sS 'http://localhost:8081/scenario-'$j` ; done ; done
+for i in `seq 1 100`; do for endpoint in /top /order-history/me /cart/me/detail /cart/me/checkout ; do curl -s 'http://localhost:8081'$endpoint 2>&1 >/dev/null ; done ; done ; echo done
 ```
 
 see zipkin server
