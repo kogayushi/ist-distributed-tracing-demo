@@ -1,1 +1,1 @@
-include 'service-a', 'service-b', 'service-c', 'service-d', 'service-e', 'service-f'
+include 'bff', 'address', 'point', 'account', 'order-history', 'cart'
