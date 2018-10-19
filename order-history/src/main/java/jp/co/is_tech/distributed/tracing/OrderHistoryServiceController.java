@@ -23,7 +23,7 @@ public class OrderHistoryServiceController {
         return "order history me";
     }
     public void stopTheWorld() {
-        if(RANDOM.nextInt(30) == 0) {
+        if(RANDOM.nextInt(20) == 0) {
             try {
                 Thread.sleep(1000L);
             } catch (InterruptedException e) {

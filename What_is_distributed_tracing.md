@@ -78,6 +78,14 @@
 - zipkin server
 	- 追跡結果をここに集約し、可視化する
 
+### 要件
+- 99.5パーセンタイルが1秒未満のレスポンスであること
+- エラーなし
+
+### シナリオ
+- 1秒以上のレスポンスについて遅延原因を調べる
+- エラー発生元のアプリを調べる
+
 ### sample application
 - https://github.com/kogayushi/ist-distributed-tracing-demo
 
