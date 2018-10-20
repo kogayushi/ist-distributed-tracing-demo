@@ -6,7 +6,7 @@
 <!-- footer: What's distributed tracing -->
 <!-- *footer -->
 
-# What's Distributed Tracing
+# What's <font color="red">Distributed Tracing</font>
 
 ---
 ## アジェンダ
@@ -69,19 +69,20 @@
 ### 論より証拠
 ということで、デモでそれがどういうことか示していきます
 
+※ここまでで10分くらい※
+
 ---
 
 ## Demo
 ### 登場人物
 - マイクロサービスを想定した複数のアプリケーション
- 	- Spring boot 2.0.x(Spring Cloud Sleuth with Brave)
 - zipkin server
 	- 追跡結果をここに集約し、可視化する
-
 ### 要件
 - 99.5パーセンタイルが1秒未満のレスポンスであること
 - エラーなし
 
+---
 ### シナリオ
 - 1秒以上のレスポンスについて遅延原因を調べる
 - エラー発生元のアプリを調べる
@@ -90,6 +91,9 @@
 ### sample application
 - https://github.com/kogayushi/ist-distributed-tracing-demo
 
+---
+
+## Demo Start
 
 ---
 ## 最後に
@@ -105,3 +109,8 @@
 ---
 
 ## Fin.
+
+---
+## ~~マサカリ~~<font color="red">質問</font>タイム
+- 時間が余っていれば
+
