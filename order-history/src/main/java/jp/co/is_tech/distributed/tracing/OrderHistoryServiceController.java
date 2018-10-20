@@ -19,6 +19,7 @@ public class OrderHistoryServiceController {
 
     @GetMapping(value = "/order-history/me", produces = MediaType.TEXT_PLAIN_VALUE)
     public String myOrderHistory() {
+        log.info("request coming");
         stopTheWorld();
         return "order history me";
     }

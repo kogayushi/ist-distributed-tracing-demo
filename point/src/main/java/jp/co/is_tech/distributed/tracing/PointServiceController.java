@@ -15,6 +15,7 @@ public class PointServiceController {
 
     @GetMapping(value = "/points/me", produces = MediaType.TEXT_PLAIN_VALUE)
     public String myPoints() {
+        log.info("request coming");
         throwExceptionRandomly();
         return "points";
     }

@@ -85,6 +85,7 @@
 ### シナリオ
 - 1秒以上のレスポンスについて遅延原因を調べる
 - エラー発生元のアプリを調べる
+- 各サービスの依存関係を調べる
 
 ### sample application
 - https://github.com/kogayushi/ist-distributed-tracing-demo

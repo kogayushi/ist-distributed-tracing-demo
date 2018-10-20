@@ -11,6 +11,7 @@ public class AddressServiceController {
 
     @GetMapping(value = "/addresses/me/default", produces = MediaType.TEXT_PLAIN_VALUE)
     public String defaultAddress() {
+        log.info("request coming");
         return "default-address";
     }
 

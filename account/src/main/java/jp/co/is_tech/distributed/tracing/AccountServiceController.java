@@ -11,6 +11,7 @@ public class AccountServiceController {
 
     @GetMapping(value = "/accounts/me", produces = MediaType.TEXT_PLAIN_VALUE)
     public String myAccount() {
+        log.info("request coming");
         return "myAccount";
     }
 
